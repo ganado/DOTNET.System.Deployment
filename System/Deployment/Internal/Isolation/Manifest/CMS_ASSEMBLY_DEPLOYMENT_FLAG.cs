@@ -1,0 +1,19 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: System.Deployment.Internal.Isolation.Manifest.CMS_ASSEMBLY_DEPLOYMENT_FLAG
+// Assembly: System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+// MVID: 3325BD7A-5C2D-4917-8EF5-AD0E0DDAE2E8
+// Assembly location: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Deployment.dll
+
+namespace System.Deployment.Internal.Isolation.Manifest
+{
+  internal enum CMS_ASSEMBLY_DEPLOYMENT_FLAG
+  {
+    CMS_ASSEMBLY_DEPLOYMENT_FLAG_BEFORE_APPLICATION_STARTUP = 4,
+    CMS_ASSEMBLY_DEPLOYMENT_FLAG_RUN_AFTER_INSTALL = 16,
+    CMS_ASSEMBLY_DEPLOYMENT_FLAG_INSTALL = 32,
+    CMS_ASSEMBLY_DEPLOYMENT_FLAG_TRUST_URL_PARAMETERS = 64,
+    CMS_ASSEMBLY_DEPLOYMENT_FLAG_DISALLOW_URL_ACTIVATION = 128,
+    CMS_ASSEMBLY_DEPLOYMENT_FLAG_MAP_FILE_EXTENSIONS = 256,
+    CMS_ASSEMBLY_DEPLOYMENT_FLAG_CREATE_DESKTOP_SHORTCUT = 512,
+  }
+}

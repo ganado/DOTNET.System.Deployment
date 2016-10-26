@@ -1,0 +1,22 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: System.Deployment.Internal.Isolation.Manifest.CMS_SYSTEM_PROTECTION
+// Assembly: System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+// MVID: 3325BD7A-5C2D-4917-8EF5-AD0E0DDAE2E8
+// Assembly location: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Deployment.dll
+
+namespace System.Deployment.Internal.Isolation.Manifest
+{
+  internal enum CMS_SYSTEM_PROTECTION
+  {
+    CMS_SYSTEM_PROTECTION_READ_ONLY_IGNORE_WRITES = 1,
+    CMS_SYSTEM_PROTECTION_READ_ONLY_FAIL_WRITES = 2,
+    CMS_SYSTEM_PROTECTION_OS_ONLY_IGNORE_WRITES = 3,
+    CMS_SYSTEM_PROTECTION_OS_ONLY_FAIL_WRITES = 4,
+    CMS_SYSTEM_PROTECTION_TRANSACTED = 5,
+    CMS_SYSTEM_PROTECTION_APPLICATION_VIRTUALIZED = 6,
+    CMS_SYSTEM_PROTECTION_USER_VIRTUALIZED = 7,
+    CMS_SYSTEM_PROTECTION_APPLICATION_AND_USER_VIRTUALIZED = 8,
+    CMS_SYSTEM_PROTECTION_INHERIT = 9,
+    CMS_SYSTEM_PROTECTION_NOT_PROTECTED = 10,
+  }
+}
